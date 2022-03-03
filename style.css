@@ -1,0 +1,22 @@
+.parent{
+    margin: 50%;
+}
+
+.hover{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    line-height: 30px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.hover:hover{
+    background-color: rgba(23, 133, 82);
+    color: white;
+    box-shadow: 10px 9px 67px -6px rgba(13, 94, 11, 0.75);
+}
